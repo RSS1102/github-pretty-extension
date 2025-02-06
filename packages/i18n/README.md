@@ -91,30 +91,7 @@ Then same as above, run the following command. (or just run `pnpm dev` or `pnpm 
 pnpm genenrate-i8n
 ```
 
-
 ## Usage
-
-### Translation function
-
-Just import the `t` function and use it to translate the key.
-
-```typescript
-import { t } from '@extension/i18n';
-
-console.log(t('loading')); // Loading...
-```
-
-```typescript jsx
-import { t } from '@extension/i18n';
-
-const Component = () => {
-  return (
-    <button>
-      {t('toggleTheme')} // Toggle Theme
-    </button>
-  );
-};
-```
 
 ### Placeholders
 

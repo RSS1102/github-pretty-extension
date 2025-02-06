@@ -7,9 +7,6 @@
     "description": "Extension name",
     "message": "Chrome extension boilerplate"
   },
-  "toggleTheme": {
-    "message": "Toggle theme"
-  },
   "loading": {
     "message": "Loading..."
   },

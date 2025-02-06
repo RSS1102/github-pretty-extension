@@ -1,5 +1,4 @@
-import { toggleTheme } from '@src/toggleTheme';
-
 console.log('content script loaded');
+const repoTitle = document.querySelector('[itemprop="name"]');
 
-void toggleTheme();
+console.log(repoTitle);
